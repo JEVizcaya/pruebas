@@ -42,3 +42,10 @@ for alumno in menores_edad[:5]:
     
     #contar nombres repetidos en un diccionario
     
+nombres={}
+for alumno.nombre in  nombres:
+    if alumno.nombre in nombres:
+        nombres[alumno.nombre]+=1
+    else:
+        nombres[alumno.nombre]=1
+print(nombres)
